@@ -1,0 +1,91 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.mynav{background-color: rgba(0,0,0,0.70) !important; }
+.nav-link{color: #fff;font-size: 18px;}
+
+.nav-link:hover{color: blue;}
+
+/* hero-section */
+
+#home{
+    background-image: url(assets/img/doc.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.landing-text{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color:blue;
+    top: 58%;
+}
+.landingheading1{font-size: 70px; text-transform: capitalize;}
+.landingheading2{font-size: 70px;text-transform: capitalize;}
+
+
+/* about-us */
+.top-heading p{
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #808080ee;
+    font-size: 65px;
+}
+
+.c1,.c2,.c3,.c4{
+    text-align: center;
+    border-radius: 0px 30px 0px 30px;
+    margin-bottom: 50px;  
+    
+    
+}
+
+
+ .card-title{
+  
+     margin-top: 15px;
+     
+ }
+ .afg{
+     border: 1px solid blue;
+ }
+.land{
+    text-transform: uppercase;
+ font-size: 30px;
+}
+.card{
+
+font-size: 20px;
+}
+.card-text{
+    font-size: 15px;
+}
+ .colq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .coli{border-radius: 30px;}
+ .spec-1{
+     font-size: 20px;
+ }
+ .spec-1-head{
+     font-size: 40px;
+ }
+
+ .end{
+     text-indent: 30%;
+ }
+ .vertical{
+     border-left: 6px solid blue;
+     height:400px;
+     position: absolute;
+     left:49%;
+ }
